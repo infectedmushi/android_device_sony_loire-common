@@ -88,4 +88,4 @@ TARGET_SYSTEM_PROP += device/sony/loire-common/system.prop
 # SELinux
 BOARD_SEPOLICY_DIRS += device/sony/loire-common/sepolicy
 
-include device/sony/common/CommonConfigOmni.mk
+include device/sony/common/CommonConfigCarbon.mk
