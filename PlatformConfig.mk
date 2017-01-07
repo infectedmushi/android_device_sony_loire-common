@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Platform path
-PLATFORM_COMMON_PATH := device/sony/loire
+PLATFORM_COMMON_PATH := device/sony/loire-common
 
 TARGET_BOARD_PLATFORM := msm8952
 
@@ -91,3 +91,4 @@ TARGET_SYSTEM_PROP += $(PLATFORM_COMMON_PATH)/system.prop
 BOARD_SEPOLICY_DIRS += $(PLATFORM_COMMON_PATH)/sepolicy
 
 include device/sony/common/CommonConfig.mk
+include device/sony/common/CommonConfigCarbon.mk
